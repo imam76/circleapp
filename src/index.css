@@ -1,13 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.nav-option {
+  padding: 0 8px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.padding-top-94 {
+  padding-top: 94px !important;
+}
+
+.editor {
+  padding: 8px;
+  border: 1px solid #999;
+}
+
+.rich-text-util-button {
+  padding: 8px;
+  width: 50px;
+  height: 50px;
+}
+
+.book-title {
+  border: none;
+  font-size: 32px;
+  font-family: "Roboto";
+  font-weight: 600;
+  color: rgb(85, 85, 85);
+}
+
+.book-author {
+  border: none;
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 300;
+  padding-left: 4px;
+  color: rgb(129, 129, 129);
+}
+
+.rich-text-util-button-submit {
+  padding: 8px;
+  /* width: 50px; */
+  height: 50px;
 }
