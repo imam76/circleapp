@@ -67,7 +67,7 @@ export default function BookEditor({ data }) {
       block: blocks,
       id: uuidv4(),
     };
-    fetch("http://localhost:3002/posts", {
+    fetch("https://5ee02bf49ed06d001696dbb8.mockapi.io/api/v1/books", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -86,7 +86,7 @@ export default function BookEditor({ data }) {
       ...data,
       block: blocks,
     };
-    fetch(`http://localhost:3002/posts/${id}`, {
+    fetch(`https://5ee02bf49ed06d001696dbb8.mockapi.io/api/v1/books/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
